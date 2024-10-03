@@ -8,7 +8,7 @@ import zoom from '../../assets/images/zoom-logo.png';
 
 const Logos = () => {
     return (
-        <div className="md:flex md:flex-row md:gap-3 md:justify-between grid grid-cols-3 gap-3">
+        <div className="md:flex mb-12 md:flex-row md:gap-3 md:justify-between grid grid-cols-3 gap-3">
           {/* Amazon */}
           <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">
             <img src={amazon} alt="amazon logo" />

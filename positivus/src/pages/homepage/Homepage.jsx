@@ -5,6 +5,7 @@ import Logos from '../../components/logos/Logos';
 import Services from '../../components/services/Services';
 import Proposal from '../../components/proposal/Proposal';
 import Cases from '../../components/cases/Cases';
+import Process from '../../components/process/Process';
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Services/>
         <Proposal/>
         <Cases/>
+        <Process/>
       
 
       <section id="pricing" className="h-screen bg-gray-400">

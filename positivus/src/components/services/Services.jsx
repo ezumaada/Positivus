@@ -11,7 +11,7 @@ const Services = () => {
   const Card = ({ bgColor, title, image }) => {
     return (
       <div className={`rounded-lg ${bgColor} flex flex-row gap-4 transition-all duration-300 hover:bg-black shadow-[0px_4px_10px_rgba(0,0,0,0.2)] hover:text-white  p-4`}>
-        <div className='flex flex-col gap-10 '>
+        <div className='flex flex-col justify-between '>
         <h1>{title}</h1>
         <p>
           <img src={arrow} alt="arrow" /> Learn more
@@ -25,9 +25,9 @@ const Services = () => {
 
   return (
     <div>
-      <section id="services" className="h-screen bg-gray-200">
-        <div className='items-center md:items-start md'>
-          <h1>Services Section</h1>
+      <section id="services" className=' mt-[10vh] mb-[15vh]'>
+        <div className='items-center md:items-left my-6 md:flex-row md'>
+          <h1 className='font-bold text-2xl my-3'>Services Section</h1>
           <p>
             At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
           </p>
