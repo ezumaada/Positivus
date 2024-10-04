@@ -33,11 +33,11 @@ const Services = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Card bgColor="bg-[F3F3F3]" title="Search engine optimization" image={seo} />
+          <Card bgColor="bg-[#F3F3F3]" title="Search engine optimization" image={seo} />
           <Card bgColor="bg-[#B9FF66]" title="Pay-per-click advertising" image={ppc} />
           <Card bgColor="bg-[#B9FF66]" title="Social Media Marketing" image={smm} />
-          <Card bgColor="bg-[F3F3F3]" title="Email Marketing" image={emm}/>
-          <Card bgColor="bg-[F3F3F3]" title="content Creation" image={coc} />
+          <Card bgColor="bg-[#F3F3F3]" title="Email Marketing" image={emm}/>
+          <Card bgColor="bg-[#F3F3F3]" title="content Creation" image={coc} />
           <Card bgColor="bg-[#B9FF66]" title="Analytics and Tracking" image={anal}/>
           
         </div>

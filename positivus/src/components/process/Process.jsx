@@ -34,11 +34,11 @@ const Process = () => {
       {/* Steps container */}
       <div className="w-full  mx-auto">
         {steps.map((step, index) => (
-          <div key={index} className="mb-4 rounded-lg border-2 border-solid border-black  bg-white shadow-lg">
+          <div key={index} className="mb-4 px-2 rounded-lg border-2 border-solid border-black  bg-white shadow-lg">
             {/* Step title with toggle */}
             <div
               onClick={() => handleToggle(index)}
-              className={`cursor-pointer  p-4 rounded-lg ${openIndex === index ? 'border-b-2 border-black' : ''} hover:bg-[#B9FF66] transition duration-300`}
+              className={`cursor-pointer   p-4  ${openIndex === index ? 'border-b-2 border-black' : ''} hover:bg-[#B9FF66] shadow-[0px_4px_10px_rgba(0,0,0,0.2) transition duration-300`}
             >
               <h3 className="text-lg font-semibold">
                 {index + 1}. {step.title}

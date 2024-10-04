@@ -6,6 +6,10 @@ import Services from '../../components/services/Services';
 import Proposal from '../../components/proposal/Proposal';
 import Cases from '../../components/cases/Cases';
 import Process from '../../components/process/Process';
+import Team from '../../components/team/Team';
+import Testimonials from '../../components/testimonials/Testimonials';
+import ContactUs from '../../components/contactus/ContactUs';
+import Footer from '../../components/footer/Footer';
 
 const Homepage = () => {
   return (
@@ -17,6 +21,10 @@ const Homepage = () => {
         <Proposal/>
         <Cases/>
         <Process/>
+        <Team/>
+        <Testimonials/>
+        <ContactUs/>
+        <Footer/>
       
 
       <section id="pricing" className="h-screen bg-gray-400">
@@ -29,10 +37,7 @@ const Homepage = () => {
         <p>Content for the Help section...</p>
       </section>
 
-      <section id="quote-request" className="h-screen bg-gray-600">
-        <h1>Request a Quote Section</h1>
-        <p>Content for the Request a Quote section...</p>
-      </section>
+      
     </div>
   )
 }
